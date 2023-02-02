@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head >
+        <title>Imagine Dragons</title>
+
+        <link rel="stylesheet" href="Styles.css">
+
+        <script src="HallOfFame.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+
+        
+
+    </head>
+    <body>
+        <header>
+                      
+            <img id="header-image" src="https://i.pinimg.com/originals/fb/29/8c/fb298c424e0f5aebf411a1a854917d49.jpg" alt="Imagine Dragons text image">
+
+        </header>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="navigation-links" href="index.html">Home</a></li>
+                <li><a class="navigation-links" href="Albums.html">Albums</a></li>
+                <li><a class="navigation-links" href="MailingList.html">Join the mailing list</a></li>
+                <li><a class="navigation-links" href="HallOfFame.html">Hall of Fame</a></li>
+            </ul>
+
+        </div>
+
+        <main>
+            <h1>Hall of Fame</h1>
+            <p id="error" class="error" ></p>
+
+            <form>
+                <label for="year">Choose a year</label>
+                <input type="number" min=1986 max=2021 id="year">
+                <input type="button" id="submit" value="submit">
+            </form>
+
+            <table id="HallOfFame-table">
+                <thead>
+                    <td>Name</td>
+                    <td>Image</td>
+                    <td>Members</td>
+                    <td>Inducted by</td>
+                </thead>
+                <tbody id="HallOfFame-table-body">
+                    
+                    
+
+                </tbody>
+            </table>
+
+            
+        </main>
+
+
+
+        <footer >
+            <p>Information taken from <a id="wikipediaLink" href="https://en.wikipedia.org/wiki/Imagine_Dragons#:~:text=Imagine%20Dragons%20is%20an%20American,McKee%20and%20drummer%20Daniel%20Platzman.">Wikipedia</a></p>
+            
+            
+        </footer>
+        
+    </body>
+</html>

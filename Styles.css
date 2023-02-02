@@ -1,0 +1,181 @@
+*{
+    background-color: black;
+    color: white;
+    
+    
+}
+
+ /*Header*/ 
+
+header{
+    height: 200px;
+    padding: 0;
+    margin-bottom: 10px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#header-image{
+    height: 200px;
+    
+    
+}
+
+/*Navigation*/ 
+#navigation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+
+    border: hidden;
+    border-radius:  10px;
+    
+
+
+}
+
+ul{
+    background-color: white;
+}
+
+li{
+    display: inline;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.navigation-links{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Main*/ 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+main{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+/*Main - Index*/ 
+
+#main-intro{
+    display:flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+#main-intro-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    max-height: 100%;
+
+}
+
+#main-intro-right{
+    width: 50%;
+
+}
+
+#main-intro-image{
+    width: 100%;
+    
+}
+
+#main-individual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.individual{
+    width: 23%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+
+.individual-image{
+    max-width: 100%;
+    height: 300px;
+}
+
+/*Hall of Fame*/ 
+
+#HallOfFame-table{
+    width: 100%;
+    
+}
+
+.HallOfFame-images{
+    height: 200px;
+}
+
+.HallOfFame-members{
+    padding-top: 100px;
+    text-decoration: none;;
+    
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+/*Albums*/
+
+.headers{
+    width: 30%;
+    
+}
+
+#table-Albums{
+    width: 100%;
+}
+
+
+
+
+
+
+/*Footer*/ 
+
+footer{
+    height: 150px;
+    text-align: center;
+    
+}
+
+#wikipediaLink{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
